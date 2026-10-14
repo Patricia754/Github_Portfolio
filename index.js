@@ -21,6 +21,9 @@ const handleMouseDownOnce = () => {
 
 window.addEventListener('keydown', handleFirstTab)
 
+const video = document.querySelector("video");
+if (video) video.playbackRate = 2.5;
+
 const backToTopButton = document.querySelector(".back-to-top");
 let isBackToTopRendered = false;
 
